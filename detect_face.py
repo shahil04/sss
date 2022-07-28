@@ -11,7 +11,7 @@ import cv2
 from tkinter import messagebox
 import mysql.connector
 
-
+#import
 engine=pp.init()
 voices=engine.getProperty('voices')
 engine.setProperty('voice',voices[1].id)
